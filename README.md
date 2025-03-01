@@ -1,23 +1,4 @@
-# Multi-Agent-AI-App
-Multi-Agents AI System building from Scratch in python without any dependency of frameworks! 🤖 
-This Python-based app leverages OpenAI's GPT-4o model with a simple Streamlit web interface to tackle specialized tasks to create agentic systems without using orchestration frameworks like Crew AI or LangGraph. 🎉
-
 ![ Multi Agent AI App](logo.png)
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Architecture](#architecture)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Agents](#agents)
-  - [Main Agents](#main-agents)
-  - [Validator Agents](#validator-agents)
-- [Logging](#logging)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
 
 ## Overview
 
@@ -74,7 +55,7 @@ The **Multi-Agents AI System from Scratch** is a Python-based application levera
                 +-------------+        +-------------+
 ```
 
-### Components Breakdown
+### Breakdown
 
 1. **User**
    - Interacts with the system via the Streamlit web interface.
@@ -102,8 +83,6 @@ The **Multi-Agents AI System from Scratch** is a Python-based application levera
 6. **Logger**
    - Records all interactions, inputs, outputs, and errors.
    - Facilitates monitoring and debugging.
-
-## Installation
 
 ### Prerequisites
 
@@ -178,28 +157,6 @@ The **Multi-Agents AI System from Scratch** is a Python-based application levera
    - **Write and Refine Research Article:** Provide a topic and optional outline to generate and refine research articles.
    - **Sanitize Medical Data (PHI):** Input medical data to remove sensitive information.
 
-## Agents
-
-### Main Agents
-
-- **Summarize Agent**
-  - **Function:** Generates summaries of provided medical texts.
-  - **Usage:** Input the text, and receive a concise summary.
-
-- **Write Article Agent**
-  - **Function:** Creates drafts of research articles based on a topic and optional outline.
-  - **Usage:** Provide a topic and outline to generate an initial draft.
-
-- **Sanitize Data Agent**
-  - **Function:** Removes Protected Health Information (PHI) from medical data.
-  - **Usage:** Input medical data containing PHI to receive sanitized data.
-
-### Validator Agents
-
-- **Summarize Validator Agent**
-  - **Function:** Validates the accuracy and quality of summaries.
-  - **Usage:** Receives the original text and its summary to assess quality.
-
 - **Refiner Agent**
   - **Function:** Enhances and refines research article drafts for better clarity and coherence.
   - **Usage:** Receives a draft article and returns an enhanced version.
@@ -208,53 +165,3 @@ The **Multi-Agents AI System from Scratch** is a Python-based application levera
   - **Function:** Ensures that all PHI has been removed from sanitized data.
   - **Usage:** Receives original and sanitized data to verify PHI removal.
 
-## Logging
-
-- **Location:** Logs are stored in the `logs/` directory.
-- **Files:**
-  - `multi_agent_system.log`: Contains detailed logs for monitoring and debugging.
-- **Configuration:** Logging is handled using the `loguru` library, configured in `utils/logger.py`.
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. **Fork the Repository**
-2. **Create a Feature Branch**
-
-   ```bash
-   git checkout -b feature/YourFeature
-   ```
-
-3. **Commit Your Changes**
-
-   ```bash
-   git commit -m "Add your feature"
-   ```
-
-4. **Push to the Branch**
-
-   ```bash
-   git push origin feature/YourFeature
-   ```
-
-5. **Open a Pull Request**
-   
-
-## Acknowledgements
-
-- [OpenAI](https://openai.com/) for providing the GPT-4 model.
-- [Streamlit](https://streamlit.io/) for the web application framework.
-- [Loguru](https://github.com/Delgan/loguru) for the logging library.
-- Inspired by collaborative multi-agent system architectures and prompt engineering techniques like Chain-of-Thought (CoT) and ReAct.
-
-## ©️ License 🪪 
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
----
-
-#### **If you like this LLM Project do drop ⭐ to this repo**
-#### Follow me on [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gurpreetkaurjethra/) &nbsp; [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/GURPREETKAURJETHRA/)
-
----
