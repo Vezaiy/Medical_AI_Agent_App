@@ -95,7 +95,7 @@ The **Multi-Agents AI System from Scratch** is a Python-based application levera
 
    ```bash
    git clone https://github.com/Vezaiy/Medical_AI_Agent_App.git
-   cd Multi-Agent-AI-App
+   cd Medical_AI_Agent_App
    ```
 
 2. **Create a Virtual Environment**
