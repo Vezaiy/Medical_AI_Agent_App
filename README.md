@@ -94,7 +94,7 @@ The **Multi-Agents AI System from Scratch** is a Python-based application levera
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/GURPREETKAURJETHRA/Multi-Agent-AI-App.git
+   git clone https://github.com/Vezaiy/Medical_AI_Agent_App.git
    cd Multi-Agent-AI-App
    ```
 
